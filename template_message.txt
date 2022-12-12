@@ -1,0 +1,14 @@
+
+Dear {0},
+
+Once again, This was an amazing year. 2022 impacted us in many ways. We made so many good memories and sometimes tough ones.
+However, we must have learned a lot about ourselves and are willing to grow even more. So, we want to celebrate the last few days in 2022
+and make so much fun.  We are going to play secret Santa together! You are given a friend that you need to buy a little gift. 
+The only rule is that the budget for the present is no more than 250 LE. Get creative! and do not tell anyone who your pair is.
+
+You are paired with: {1}
+Note:
+Your partner {2}
+
+Regards,
+Secret Santa
