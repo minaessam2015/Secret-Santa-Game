@@ -6,13 +6,14 @@ import numpy as np
 def generate_santa_file(input_file: str,output_file='./santa.txt'):
 
     users = get_users(input_file)
+    randomized = np.arange(len(users))
+    np.random.shuffle(randomized)
     if len(users)%2 != 0:
         # Circular matching
-        randomized = np.arange(len(users)+1)
-        randomized[-1] = randomized[0]
-    else:
-        randomized = np.arange(len(users))
-    np.random.shuffle(randomized)
+        randomized2 = np.arange(len(users)+1)
+        randomized2[:-1] = randomized
+        randomized2[-1] = randomized[0]
+        randomized = randomized2
     print(randomized)
 
     with open(output_file,'w+') as f:
